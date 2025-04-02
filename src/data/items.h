@@ -5643,7 +5643,8 @@ const struct Item gItems[] =
     [ITEM_EXP_SHARE] =
     {
         .name = _("Exp. Share"),
-        .price = 3000,
+        .importance = 1,
+        .price = 0,
         .holdEffect = HOLD_EFFECT_EXP_SHARE,
         .description = sExpShareDesc,
         .pocket = I_EXP_SHARE_ITEM >= GEN_6 ? POCKET_KEY_ITEMS : POCKET_ITEMS,
